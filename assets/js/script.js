@@ -38,6 +38,6 @@ function add() {
             <i class="fa-solid fa-face-grin-hearts text-success me-2"></i>${new_skill.value}
         </li>`
         new_skill.value = ''
-        Alert('SUCCESS', 'Save Changes')
+        Alert('SUCCESS', 'Add a New Skill Successfully')
     }
 }
